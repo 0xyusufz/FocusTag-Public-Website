@@ -14,7 +14,12 @@ export function DownloadCTA() {
           </p>
           
           <div className="mt-8 flex flex-col items-center justify-center gap-y-4">
-            <Button href="#" variant="primary" className="px-8 py-3.5 text-base">
+            <Button
+              href="https://github.com/0xyusufz/FocusTag-Releases/releases/download/v1.0/FocusTag-v1.0.apk"
+              variant="primary"
+              className="px-8 py-3.5 text-base"
+              aria-label="Download FocusTag APK for Android, Version 1.0"
+            >
               Download FocusTag
             </Button>
             <div className="flex items-center gap-2 text-sm text-slate-500 font-medium">

@@ -13,7 +13,7 @@ export function Hero() {
           <div className="mb-8 flex justify-center">
             <span className="relative rounded-full px-3 py-1 text-sm leading-6 text-slate-600 ring-1 ring-slate-900/10 hover:ring-slate-900/20 transition-all bg-white shadow-xs">
               Now available for Android.{' '}
-              <a href="#download" className="font-semibold text-[var(--color-brand)]"><span className="absolute inset-0" aria-hidden="true"></span>Read more <span aria-hidden="true">&rarr;</span></a>
+              <a href="#how-it-works" className="font-semibold text-[var(--color-brand)]"><span className="absolute inset-0" aria-hidden="true"></span>Read more <span aria-hidden="true">&rarr;</span></a>
             </span>
           </div>
           <h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-6xl text-balance">
@@ -23,7 +23,13 @@ export function Hero() {
             FocusTag combines physical NFC checkpoints with mobile focus enforcement to help students stay focused where it matters.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
-            <Button href="#download" variant="primary">Download FocusTag</Button>
+            <Button
+              href="https://github.com/0xyusufz/FocusTag-Releases/releases/download/v1.0/FocusTag-v1.0.apk"
+              variant="primary"
+              aria-label="Download FocusTag APK for Android"
+            >
+              Download FocusTag
+            </Button>
             <Button href="#for-institutions" variant="outline">For Institutions</Button>
           </div>
         </div>

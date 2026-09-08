@@ -44,7 +44,11 @@ export function Navbar() {
             <a href="#for-institutions" className="hidden text-sm font-medium leading-6 text-slate-600 hover:text-slate-900 lg:block transition-colors">
               Pilot Program
             </a>
-            <Button href="#download" variant="primary">
+            <Button
+              href="https://github.com/0xyusufz/FocusTag-Releases/releases/download/v1.0/FocusTag-v1.0.apk"
+              variant="primary"
+              aria-label="Download FocusTag APK for Android"
+            >
               Download
             </Button>
           </div>
